@@ -26,7 +26,7 @@ SP_X1Y = sum((x1[i] - Mx1) * (Y[i] - My) for i in range(len(x1)))
 SP_X2Y = sum((x2[i] - Mx2) * (Y[i] - My) for i in range(len(x2)))
 SP_X3Y = sum((x3[i] - Mx3) * (Y[i] - My) for i in range(len(x3)))
 SP_X4Y = sum((x4[i] - Mx4) * (Y[i] - My) for i in range(len(x4)))
-SP_X5Y = sum((x4[i] - Mx4) * (Y[i] - My) for i in range(len(x4)))
+SP_X5Y = sum((x4[i] - Mx4) * (Y[i] - My) for i in range(len(x5)))
 
 SP_X1X1 = sum((x1[i] - Mx1) ** 2 for i in range(len(x1)))
 SP_X2X2 = sum((x2[i] - Mx2) ** 2 for i in range(len(x2)))
@@ -45,7 +45,7 @@ SP_X3X4 = sum((x3[i] - Mx3) * (x4[i] - Mx4) for i in range(len(x3)))
 SP_X3X5 = sum((x3[i] - Mx3) * (x5[i] - Mx5) for i in range(len(x3)))
 SP_X4X5 = sum((x4[i] - Mx4) * (x5[i] - Mx5) for i in range(len(x4)))
 SP_X4X4 = sum((x4[i] - Mx4) * (x4[i] - Mx4) for i in range(len(x4)))
-SP_X5X5 = sum((x5[i] - Mx5) * (x5[i] - Mx5) for i in range(len(x4)))
+SP_X5X5 = sum((x5[i] - Mx5) * (x5[i] - Mx5) for i in range(len(x5)))
 
 
 beta1 = SP_X1Y / SP_X1X1
